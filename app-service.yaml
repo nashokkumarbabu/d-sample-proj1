@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: testsdf
+  name: testsdf
+spec:
+  type: NodePort
+  ports:
+  - port: 
+    protocol: TCP
+    targetPort: 
+    nodePort: 
+  selector:
+    app: testsdf

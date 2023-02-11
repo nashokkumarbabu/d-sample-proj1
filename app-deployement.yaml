@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: testsdf
+  name: testsdf
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: testsdf
+  template:
+    metadata:
+      labels:
+        app: testsdf
+    spec:
+      containers:
+      - name: testsdf
+        image: userDockerId/testsdf
+        ports:
+          - containerPort: 
+        env:
+          

@@ -1,0 +1,7 @@
+apiVersion: getambassador.io/v2
+kind: Mapping
+metadata:
+  name: testsdf-mapping
+spec:
+  prefix: /testsdf/
+  service: testsdf.default:

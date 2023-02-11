@@ -1,0 +1,9 @@
+apiVersion: skaffold/v2beta5
+kind: Config
+build:
+  artifacts:
+  - image: {DOcker Image Name}/testsdf
+deploy:
+  kubectl:
+    manifests:
+      - app-*

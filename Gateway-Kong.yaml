@@ -1,0 +1,25 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: testsdf
+  annotations:
+    configuration.konghq.com: testsdf
+spec:
+  rules:
+  - http:
+      paths:
+      - path: /testsdf
+        backend:
+          serviceName: testsdf
+          servicePort: 
+
+---
+
+apiVersion: configuration.konghq.com/v1
+kind: KongIngress
+metadata:
+    name: testsdf
+route:
+  preserve_host: false
+upstream:
+  host_header: testsdf.default:
