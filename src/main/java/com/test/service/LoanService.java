@@ -67,14 +67,6 @@ public class LoanService {
 			
 			o.setType(Loan.getType());
 			
-			o.setType(Loan.getType());
-			
-			o.setType(Loan.getType());
-			
-			o.setType(Loan.getType());
-			
-			o.setAddress(Loan.getAddress());
-			
 			o.setAddress(Loan.getAddress());
 			
 			o.setContent(Loan.getContent());
