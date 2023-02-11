@@ -41,6 +41,7 @@ public class LoanServiceTest {
 		Loan.setType(undefined);
 		Loan.setAddress(undefined);
 		Loan.setContent(undefined);
+		Loan.setCategory(undefined);
 		
 		
 	    Mockito.when(repo.save(Loan)).thenReturn(Loan);
@@ -56,6 +57,7 @@ public class LoanServiceTest {
 		Loan.setType(undefined);
 		Loan.setAddress(undefined);
 		Loan.setContent(undefined);
+		Loan.setCategory(undefined);
 		
 		
 	    Mockito.when(repo.findById()).thenReturn(Optional.of(Loan));
@@ -71,6 +73,7 @@ public class LoanServiceTest {
 		Loan1.setType(undefined);
 		Loan1.setAddress(undefined);
 		Loan1.setContent(undefined);
+		Loan1.setCategory(undefined);
 		
 
 		Loan Loan2 = new Loan();
@@ -78,6 +81,7 @@ public class LoanServiceTest {
 		Loan2.setType(undefined);
 		Loan2.setAddress(undefined);
 		Loan2.setContent(undefined);
+		Loan2.setCategory(undefined);
 		
 		
 		List<Loan> LoanList = new ArrayList<>();
@@ -99,6 +103,7 @@ public class LoanServiceTest {
 		Loan.setType(undefined);
 		Loan.setAddress(undefined);
 		Loan.setContent(undefined);
+		Loan.setCategory(undefined);
 		
 		
 	    Mockito.when(repo.findById()).thenReturn(Optional.of(Loan));
@@ -115,6 +120,7 @@ public class LoanServiceTest {
 		Loan.setType(undefined);
 		Loan.setAddress(undefined);
 		Loan.setContent(undefined);
+		Loan.setCategory(undefined);
 		
 		
 		Mockito.when(repo.findById()).thenReturn(Optional.of(Loan));

@@ -49,6 +49,16 @@ public class Loan {
 		this.content = content;
 	}
 
+	private  category;
+
+	public  getCategory(){
+		return category;
+	}
+
+	public void setCategory( category){
+		this.category = category;
+	}
+
 
 
 
@@ -58,17 +68,19 @@ public class Loan {
         undefined loanId, 
         undefined type, 
         undefined Address, 
-        undefined content
+        undefined content, 
+        undefined category
 	) {
 		this.loanId = loanId;
 		this.type = type;
 		this.Address = Address;
 		this.content = content;
+		this.category = category;
 		
 	}
 
 	public String toString(){
-		return loanId + " " + type + " " + Address + " " + content;
+		return loanId + " " + type + " " + Address + " " + content + " " + category;
 	}
 
 	@Override
@@ -85,6 +97,9 @@ public class Loan {
 		}
 		if (content != null) {
 			result = 31 * result + content.hashCode();
+		}
+		if (category != null) {
+			result = 31 * result + category.hashCode();
 		}
 ;
 		return result;

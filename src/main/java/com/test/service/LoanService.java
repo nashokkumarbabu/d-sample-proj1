@@ -70,6 +70,8 @@ public class LoanService {
 			o.setAddress(Loan.getAddress());
 			
 			o.setContent(Loan.getContent());
+			
+			o.setCategory(Loan.getCategory());
 		
 		return repo.save(o);
 	}
