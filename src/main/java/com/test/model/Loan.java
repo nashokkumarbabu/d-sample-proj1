@@ -79,6 +79,16 @@ public class Loan {
 		this.Address = Address;
 	}
 
+	private  content;
+
+	public  getContent(){
+		return content;
+	}
+
+	public void setContent( content){
+		this.content = content;
+	}
+
 
 
 
@@ -91,7 +101,8 @@ public class Loan {
         undefined type, 
         undefined type, 
         undefined Address, 
-        undefined Address
+        undefined Address, 
+        undefined content
 	) {
 		this.loanId = loanId;
 		this.type = type;
@@ -100,11 +111,12 @@ public class Loan {
 		this.type = type;
 		this.Address = Address;
 		this.Address = Address;
+		this.content = content;
 		
 	}
 
 	public String toString(){
-		return loanId + " " + type + " " + type + " " + type + " " + type + " " + Address + " " + Address;
+		return loanId + " " + type + " " + type + " " + type + " " + type + " " + Address + " " + Address + " " + content;
 	}
 
 	@Override
@@ -130,6 +142,9 @@ public class Loan {
 		}
 		if (Address != null) {
 			result = 31 * result + Address.hashCode();
+		}
+		if (content != null) {
+			result = 31 * result + content.hashCode();
 		}
 ;
 		return result;
