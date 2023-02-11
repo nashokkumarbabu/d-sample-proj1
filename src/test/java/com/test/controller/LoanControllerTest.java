@@ -57,10 +57,6 @@ public class LoanControllerTest {
 		Loan Loan = new Loan();
 		Loan.setLoanId(undefined);
 		Loan.setType(undefined);
-		Loan.setType(undefined);
-		Loan.setType(undefined);
-		Loan.setType(undefined);
-		Loan.setAddress(undefined);
 		Loan.setAddress(undefined);
 		Loan.setContent(undefined);
 		
@@ -91,10 +87,6 @@ public class LoanControllerTest {
 		Loan Loan = new Loan();
 		Loan.setLoanId(undefined);
 		Loan.setType(undefined);
-		Loan.setType(undefined);
-		Loan.setType(undefined);
-		Loan.setType(undefined);
-		Loan.setAddress(undefined);
 		Loan.setAddress(undefined);
 		Loan.setContent(undefined);
 		
@@ -118,10 +110,6 @@ public class LoanControllerTest {
 		Loan Loan1 = new Loan();
 		Loan1.setLoanId(undefined);
 		Loan1.setType(undefined);
-		Loan1.setType(undefined);
-		Loan1.setType(undefined);
-		Loan1.setType(undefined);
-		Loan1.setAddress(undefined);
 		Loan1.setAddress(undefined);
 		Loan1.setContent(undefined);
 		
@@ -129,10 +117,6 @@ public class LoanControllerTest {
 		Loan Loan2 = new Loan();
 		Loan2.setLoanId(undefined);
 		Loan2.setType(undefined);
-		Loan2.setType(undefined);
-		Loan2.setType(undefined);
-		Loan2.setType(undefined);
-		Loan2.setAddress(undefined);
 		Loan2.setAddress(undefined);
 		Loan2.setContent(undefined);
 		
@@ -174,10 +158,6 @@ public class LoanControllerTest {
 		Loan Loan = new Loan();
 		Loan.setLoanId(undefined);
 		Loan.setType(undefined);
-		Loan.setType(undefined);
-		Loan.setType(undefined);
-		Loan.setType(undefined);
-		Loan.setAddress(undefined);
 		Loan.setAddress(undefined);
 		Loan.setContent(undefined);
 		

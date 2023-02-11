@@ -29,46 +29,6 @@ public class Loan {
 		this.type = type;
 	}
 
-	private  type;
-
-	public  getType(){
-		return type;
-	}
-
-	public void setType( type){
-		this.type = type;
-	}
-
-	private  type;
-
-	public  getType(){
-		return type;
-	}
-
-	public void setType( type){
-		this.type = type;
-	}
-
-	private  type;
-
-	public  getType(){
-		return type;
-	}
-
-	public void setType( type){
-		this.type = type;
-	}
-
-	private  Address;
-
-	public  getAddress(){
-		return Address;
-	}
-
-	public void setAddress( Address){
-		this.Address = Address;
-	}
-
 	private  Address;
 
 	public  getAddress(){
@@ -97,26 +57,18 @@ public class Loan {
 	public Loan( 
         undefined loanId, 
         undefined type, 
-        undefined type, 
-        undefined type, 
-        undefined type, 
-        undefined Address, 
         undefined Address, 
         undefined content
 	) {
 		this.loanId = loanId;
 		this.type = type;
-		this.type = type;
-		this.type = type;
-		this.type = type;
-		this.Address = Address;
 		this.Address = Address;
 		this.content = content;
 		
 	}
 
 	public String toString(){
-		return loanId + " " + type + " " + type + " " + type + " " + type + " " + Address + " " + Address + " " + content;
+		return loanId + " " + type + " " + Address + " " + content;
 	}
 
 	@Override
@@ -127,18 +79,6 @@ public class Loan {
 		}
 		if (type != null) {
 			result = 31 * result + type.hashCode();
-		}
-		if (type != null) {
-			result = 31 * result + type.hashCode();
-		}
-		if (type != null) {
-			result = 31 * result + type.hashCode();
-		}
-		if (type != null) {
-			result = 31 * result + type.hashCode();
-		}
-		if (Address != null) {
-			result = 31 * result + Address.hashCode();
 		}
 		if (Address != null) {
 			result = 31 * result + Address.hashCode();
