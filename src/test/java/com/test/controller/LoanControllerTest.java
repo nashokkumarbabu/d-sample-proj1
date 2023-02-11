@@ -62,6 +62,7 @@ public class LoanControllerTest {
 		Loan.setType(undefined);
 		Loan.setAddress(undefined);
 		Loan.setAddress(undefined);
+		Loan.setContent(undefined);
 		
 		
 		String inputInJson = this.mapToJson(Loan);
@@ -95,6 +96,7 @@ public class LoanControllerTest {
 		Loan.setType(undefined);
 		Loan.setAddress(undefined);
 		Loan.setAddress(undefined);
+		Loan.setContent(undefined);
 		
 		
 		Mockito.when(service.getLoanById()).thenReturn(Optional.of(Loan));
@@ -121,6 +123,7 @@ public class LoanControllerTest {
 		Loan1.setType(undefined);
 		Loan1.setAddress(undefined);
 		Loan1.setAddress(undefined);
+		Loan1.setContent(undefined);
 		
 		
 		Loan Loan2 = new Loan();
@@ -131,6 +134,7 @@ public class LoanControllerTest {
 		Loan2.setType(undefined);
 		Loan2.setAddress(undefined);
 		Loan2.setAddress(undefined);
+		Loan2.setContent(undefined);
 		
 		
 		List<Loan> LoanList = new ArrayList<>();
@@ -175,6 +179,7 @@ public class LoanControllerTest {
 		Loan.setType(undefined);
 		Loan.setAddress(undefined);
 		Loan.setAddress(undefined);
+		Loan.setContent(undefined);
 		
 		
 		String inputInJson = this.mapToJson(Loan);
